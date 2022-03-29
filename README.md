@@ -1,6 +1,8 @@
 # Django Rest API - Frexco Challenge
 
-## Published on Heroku
+## Published in Heroku
+It may take a while to load :)
+
 Regions endpoint: https://django-fruit-market.herokuapp.com/api/regions/
 
 Fruits endpoint: https://django-fruit-market.herokuapp.com/api/fruits/
