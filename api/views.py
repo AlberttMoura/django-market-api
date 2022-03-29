@@ -1,3 +1,11 @@
-from django.shortcuts import render
+from rest_framework import viewsets
+from api import serializers
+from api import models
 
-# Create your views here.
+class RegionsViewSets(viewsets.ModelViewSet):
+    serializer_class = serializers.RegionsSerializer
+    queryset = models.Regions.objects.all()
+
+class FruitsViewSets(viewsets.ModelViewSet):
+    serializer_class = serializers.FruitsSerializer
+    queryset = models.Fruits.objects.all()
