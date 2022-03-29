@@ -2,15 +2,23 @@
 
 ## Published in Heroku
 It may take a while to load :)
+<br/>
+<br/>
+Regions endpoint: https://django-fruit-market.herokuapp.com/api/regions/ [GET, POST]
 
-Regions endpoint: https://django-fruit-market.herokuapp.com/api/regions/
+For details, PUT and DELETE method add the name after ...regions/{region}
+<br/>
+<br/>
+<br/>
+Fruits endpoint: https://django-fruit-market.herokuapp.com/api/fruits/ [GET, POST]
 
-Fruits endpoint: https://django-fruit-market.herokuapp.com/api/fruits/
-
+For details, PUT and DELETE method add the name after ...regions/{fruit}
+<br/>
+<br/>
 Access admin page: https://django-fruit-market.herokuapp.com/admin
 
 username: admin
 
 password: admin
 
-### Alberto Moura
+### Developed by Alberto Moura
