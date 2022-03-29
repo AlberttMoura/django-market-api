@@ -12,7 +12,7 @@ For details, PUT and DELETE method add the name after ...regions/{region}
 <br/>
 Fruits endpoint: https://django-fruit-market.herokuapp.com/api/fruits/ [GET, POST]
 
-For details, PUT and DELETE method add the name after ...regions/{fruit}
+For details, PUT and DELETE method add the name after ...fruits/{fruit}
 <br/>
 <br/>
 Access admin page: https://django-fruit-market.herokuapp.com/admin
