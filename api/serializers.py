@@ -1,6 +1,7 @@
-from dataclasses import field
 from rest_framework import serializers
 from api import models
+
+# Parse the models' data
 
 class RegionsSerializer(serializers.ModelSerializer):
     class Meta:

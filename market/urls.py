@@ -3,14 +3,13 @@ from django.urls import path, include
 from rest_framework import routers
 from api import views
 
-route = routers.DefaultRouter()
+route = routers.DefaultRouter() # A router object to handle the API endpoints
 
 
-route.register('regions', views.RegionsViewSets, basename='Regions')
-route.register('fruits', views.FruitsViewSets, basename='Fruits')
+route.register('regions', views.RegionsViewSets, basename='Regions') # Endpoint for Regions
+route.register('fruits', views.FruitsViewSets, basename='Fruits') # Endpoint for Fruits
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('api/', include(route.urls)),
-    path('api/', include(route.urls)),
+    path('admin/', admin.site.urls), # Default Admin endpoint
+    path('api/', include(route.urls)), # Uses the endpoints
 ]
